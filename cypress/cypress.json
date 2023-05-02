@@ -1,0 +1,12 @@
+{
+    "fileServerFolder": "./",
+    "fixturesFolder": "./fixtures",
+    "integrationFolder": "./integration",
+    "modifyObstructiveCode": false,
+    "pluginsFile": "./plugins/index.ts",
+    "supportFile": "./support/index.ts",
+    "video": false,
+    "screenshotsFolder": "../screenshots",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 15000
+  }

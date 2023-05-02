@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "outDir": "./dist/out-cypress",
+    "importHelpers": true,
+    "sourceMap": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["../node_modules/@types"],
+    "types": ["node", "cypress"],
+    "lib": ["es2018", "dom", "esnext"],
+    "inlineSources": false,
+    "module": "esnext",
+    "allowJs": true,
+  },
+  "include": ["**/*.ts", "**/*.js"],
+  "exclude": ["../node_modules"]
+}

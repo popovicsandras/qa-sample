@@ -1,0 +1,11 @@
+*.log
+node_modules
+workspace.xml
+.idea/
+*.iml
+dist/
+*.npmrc
+.history
+report*
+e2e-solution
+magic.js
